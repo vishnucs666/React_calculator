@@ -32,7 +32,8 @@ function App() {
         <h1>A simple calcultor</h1>
       </header>
     </div>
-
+    <label style = {marLeftStyle}>Enter the number here</label>
+    <br></br>
     <button className= "box" style= {{...styles1,...marLeftStyle}}>7</button>
     <button className= "box" style= {styles1}>8</button>
     <button className= "box" style= {styles1}>9</button>
